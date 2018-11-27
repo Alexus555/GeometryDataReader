@@ -1,0 +1,8 @@
+D:\Пользователь\Рабочий стол\DataReader\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Пользователь\Рабочий стол\DataReader\obj\Debug\GeometryDataReader.csproj.CoreCompileInputs.cache
+D:\Пользователь\Рабочий стол\DataReader\bin\Debug\GeometryDataReader.exe.config
+D:\Пользователь\Рабочий стол\DataReader\bin\Debug\GeometryDataReader.exe
+D:\Пользователь\Рабочий стол\DataReader\bin\Debug\GeometryDataReader.pdb
+D:\Пользователь\Рабочий стол\DataReader\obj\Debug\GeometryDataReader.exe
+D:\Пользователь\Рабочий стол\DataReader\obj\Debug\GeometryDataReader.pdb
+D:\Пользователь\Рабочий стол\DataReader\obj\Debug\GeometryDataReader.csprojResolveAssemblyReference.cache

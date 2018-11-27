@@ -1,0 +1,8 @@
+D:\Пользователь\Рабочий стол\DataReader\bin\Release\DataReader.exe
+D:\Пользователь\Рабочий стол\DataReader\bin\Release\DataReader.pdb
+D:\Пользователь\Рабочий стол\DataReader\bin\Release\Oracle.ManagedDataAccess.dll
+D:\Пользователь\Рабочий стол\DataReader\obj\Release\DataReader.csprojResolveAssemblyReference.cache
+D:\Пользователь\Рабочий стол\DataReader\obj\Release\DataReader.csproj.CoreCompileInputs.cache
+D:\Пользователь\Рабочий стол\DataReader\obj\Release\DataReader.exe
+D:\Пользователь\Рабочий стол\DataReader\obj\Release\DataReader.pdb
+D:\Пользователь\Рабочий стол\DataReader\bin\Release\DataReader.exe.config
