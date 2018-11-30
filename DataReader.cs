@@ -9,6 +9,7 @@ using Oracle.ManagedDataAccess.Client;
 using System.Configuration;
 using GeometryDataReader.Support;
 using System.Linq;
+using System.Collections.Generic;
 
 class DataReader
 {
@@ -18,7 +19,15 @@ class DataReader
     {
         Console.OutputEncoding = Encoding.GetEncoding(1251);
 
-        Boolean autoRun = args.Length > 0 && args[0].ToLower() == "-auto";
+        Boolean autoRun = 
+            args.Select(x => x.ToLower())
+            .Contains("-auto");
+
+        IEnumerable<string> groupsForAction =
+            args.Select(x => x.ToLower())
+            .Where(x => x.Contains("-group"))
+            .Select(s => s.Replace("-group", ""));
+        
 
         path = ConfigurationManager.AppSettings.Get("PathToSaveResult");
         
@@ -42,7 +51,8 @@ class DataReader
 
                 foreach (Query query in queries)
                 {
-                    DoAction(conn, query);
+                    if (groupsForAction.Count() == 0 || groupsForAction.Contains(query.Group))
+                        DoAction(conn, query);
                 }
             }
 

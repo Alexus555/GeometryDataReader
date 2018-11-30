@@ -40,20 +40,20 @@ namespace GeometryDataReader.Support
                 return this["additionalCondition"] as string;
             }
         }
-        [ConfigurationProperty("Where", IsRequired = false)]
+        [ConfigurationProperty("where", IsRequired = false)]
         public string Where
         {
             get
             {
-                return this["Where"] as string;
+                return this["where"] as string;
             }
         }
-        [ConfigurationProperty("OrderBy", IsRequired = false)]
+        [ConfigurationProperty("orderBy", IsRequired = false)]
         public string OrderBy
         {
             get
             {
-                return this["OrderBy"] as string;
+                return this["orderBy"] as string;
             }
         }
         [ConfigurationProperty("action", IsRequired = false)]
@@ -65,6 +65,14 @@ namespace GeometryDataReader.Support
                 if (String.IsNullOrWhiteSpace(action))
                     action = "replace";
                 return action;
+            }
+        }
+        [ConfigurationProperty("group", IsRequired = true)]
+        public string Group
+        {
+            get
+            {
+                return this["group"] as string;
             }
         }
     }

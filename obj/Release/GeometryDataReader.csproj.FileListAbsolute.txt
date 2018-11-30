@@ -6,3 +6,11 @@ D:\Пользователь\Рабочий стол\DataReader\bin\Release\Geome
 D:\Пользователь\Рабочий стол\DataReader\bin\Release\GeometryDataReader.pdb
 D:\Пользователь\Рабочий стол\DataReader\obj\Release\GeometryDataReader.exe
 D:\Пользователь\Рабочий стол\DataReader\obj\Release\GeometryDataReader.pdb
+D:\Projects\DataReader\GeometryDataReader\bin\Release\GeometryDataReader.exe.config
+D:\Projects\DataReader\GeometryDataReader\bin\Release\GeometryDataReader.exe
+D:\Projects\DataReader\GeometryDataReader\bin\Release\GeometryDataReader.pdb
+D:\Projects\DataReader\GeometryDataReader\bin\Release\Oracle.ManagedDataAccess.dll
+D:\Projects\DataReader\GeometryDataReader\obj\Release\GeometryDataReader.csprojResolveAssemblyReference.cache
+D:\Projects\DataReader\GeometryDataReader\obj\Release\GeometryDataReader.csproj.CoreCompileInputs.cache
+D:\Projects\DataReader\GeometryDataReader\obj\Release\GeometryDataReader.exe
+D:\Projects\DataReader\GeometryDataReader\obj\Release\GeometryDataReader.pdb
